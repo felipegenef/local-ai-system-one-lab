@@ -1,0 +1,14 @@
+# Motores e ambientes — cada um baixa com os 3 comandos do RUNBOOK (não vão no repo)
+rizzo-flow/
+laya-cpu/
+
+# Artefatos de build do CDK/Docker
+lambda/cdk/node_modules/
+lambda/cdk/cdk.out/
+lambda/cdk/.cdk.staging/
+
+# Material de sessão (screenshots etc.) e lixo comum
+.openchamber/
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,7 @@
+{
+  "app": "node app.js",
+  "watch": { "include": ["**"], "exclude": ["README.md", "cdk*.json", "*.md", "node_modules"] },
+  "context": {
+    "@aws-cdk/aws-lambda:recognizeLayerVersions": true
+  }
+}
